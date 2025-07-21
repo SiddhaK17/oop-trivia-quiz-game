@@ -1,6 +1,6 @@
-# 🧠 OOP-Based Trivia Quiz Game (CLI Edition)
+# 🧠 OOP Based Trivia Quiz Game (CLI Edition)
 
-An interactive, object-oriented command line trivia quiz game built in **Python 3**, designed to mimic real world quiz systems with clean, modular, and extensible code architecture. This application serves as a practical demonstration of Object-Oriented Programming (OOP) principles and best practices in software design.
+An interactive, object oriented command line trivia quiz game built in **Python 3**, designed to mimic real world quiz systems with clean, modular, and extensible code architecture. This application serves as a practical demonstration of Object Oriented Programming (OOP) principles and best practices in software design.
 
 Developed as part of my structured Python development journey under the mentorship of **Dr. Angela Yu**, this project builds upon foundational logic and transforms it into a scalable solution using class based modeling. It encourages a deeper understanding of core Python programming patterns, while offering an engaging gameplay experience in the terminal.
 
@@ -30,7 +30,7 @@ This project exemplifies how robust programming principles can be applied to eve
 - **Input/Output Handling:**
   - Command line interaction for dynamic user input and response feedback
 - **Score Tracking Mechanism:**
-  - Rea -time updates and post game results
+  - Real time updates and post game results
 - **Data Representation:**
   - Custom classes to transform dictionary data into usable objects
 
@@ -131,10 +131,10 @@ Your final score was: 9/12
 
 ### ✅ Key Highlights
 
-- 🔧 **Object-Oriented Design**  
+- 🔧 **Object Oriented Design**  
   Utilizes a clean and extensible OOP structure with well defined classes (`Question`, `QuizBrain`, and externalized `data`) to encapsulate logic, responsibilities, and behavior.
 
-- 🧠 **Real-Time Logic & Validation**  
+- 🧠 **Real Time Logic & Validation**  
   Implements dynamic question iteration, answer checking, score tracking, and user feedback — simulating an interactive quiz experience via the command line interface.
 
 - 🎯 **Separation of Concerns**  
@@ -146,13 +146,13 @@ Your final score was: 9/12
 - 🧪 **Foundational Python Mastery**  
   Reinforces practical applications of key Python concepts including classes, lists, loops, user input handling, conditionals, and data abstraction.
 
-- 💻 **CLI-Based Interaction**  
+- 💻 **CLI Based Interaction**  
   Fully terminal driven interface offers a responsive user experience with immediate scoring and feedback.
 
 ---
 
 ### 🙌 Credits
 
-This project was crafted as part of my structured journey toward mastering core Python programming concepts and object-oriented design principles. It was developed under the mentorship of **Dr. Angela Yu** as part of the **“100 Days of Code: The Complete Python Pro Bootcamp”** — a highly acclaimed and immersive program focused on building real world applications through modern Python practices.
+This project was crafted as part of my structured journey toward mastering core Python programming concepts and object oriented design principles. It was developed under the mentorship of **Dr. Angela Yu** as part of the **“100 Days of Code: The Complete Python Pro Bootcamp”** a highly acclaimed and immersive program focused on building real world applications through modern Python practices.
 
 Special appreciation goes to the open source community, educators, and mentors whose invaluable resources continually inspire cleaner code, modular thinking, and a passion for lifelong learning.
