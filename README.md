@@ -19,7 +19,7 @@ This project exemplifies how robust programming principles can be applied to eve
 ## 🧰 Technologies & Concepts Used
 
 - **Python 3.10+**
-- **Object-Oriented Programming (OOP):**
+- **Object Oriented Programming (OOP):**
   - Class based architecture with clear separation of concerns
   - Instance variables and method encapsulation
   - Composition for collaborative behavior across classes
@@ -135,10 +135,10 @@ Your final score was: 9/12
   Utilizes a clean and extensible OOP structure with well defined classes (`Question`, `QuizBrain`, and externalized `data`) to encapsulate logic, responsibilities, and behavior.
 
 - 🧠 **Real Time Logic & Validation**  
-  Implements dynamic question iteration, answer checking, score tracking, and user feedback — simulating an interactive quiz experience via the command line interface.
+  Implements dynamic question iteration, answer checking, score tracking, and user feedback simulating an interactive quiz experience via the command line interface.
 
 - 🎯 **Separation of Concerns**  
-  Divides the core logic across multiple modules to promote code reusability, readability, and maintenance efficiency — adhering to software engineering best practices.
+  Divides the core logic across multiple modules to promote code reusability, readability, and maintenance efficiency adhering to software engineering best practices.
 
 - 🗂️ **Modular Architecture**  
   Each Python file is purpose built: `main.py` handles game flow, `data.py` stores trivia content, `question_model.py` defines question entities, and `quiz_brain.py` orchestrates logic.
