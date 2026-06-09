@@ -15,16 +15,24 @@ class QuizBrain:
     def next_question(self):
         current_question = self.question_list[self.question_number]
         self.question_number += 1
-        user_answer = input(f"Q.{self.question_number}: {current_question.text} (True/False): ")
+        while True:
+            user_answer = input(
+                f"\nQ.{self.question_number}: {current_question.text}\n(True/False): "
+            ).title()
+        
+            if user_answer in ["True", "False"]:
+                break
+        
+            print("Please enter True or False.")
         self.check_answer(user_answer, current_question.answer)
 
 
     def check_answer(self, user_answer, correct_answer):
         if user_answer.lower() == correct_answer.lower():
             self.score += 1
-            print("You got it right!")
+            print("It's Correct. You got it right!")
         else:
-            print("That's wrong.")
+            print("That's wrong. It's Incorrect!")
         print(f"The correct answer was: {correct_answer}.")
         print(f"Your current score is: {self.score}/{self.question_number}")
         print("\n")
