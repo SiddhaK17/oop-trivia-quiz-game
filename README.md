@@ -65,7 +65,7 @@ This gameplay loop is designed for clarity, engagement, and easy extensibility. 
 ## 📁 Project Structure
 
 ```
-oop-trivia-quiz-game/
+Trivia-Quiz-Game/
     ├── main.py             # Entry point for running the quiz game
     ├── data.py             # Contains the question dataset
     ├── question_model.py   # Models each question as an object
@@ -81,12 +81,12 @@ oop-trivia-quiz-game/
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/your-username/oop-trivia-quiz-game.git
+   git clone https://github.com/your-username/Trivia-Quiz-Game.git
    ```
 
 2. **Navigate to the project folder**
    ```bash
-   cd oop-trivia-quiz-game
+   cd Trivia-Quiz-Game
    ```
 
 3. **Run the script**
