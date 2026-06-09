@@ -27,8 +27,9 @@ This project exemplifies how robust programming principles can be applied to eve
   - Source code is distributed across dedicated modules for logic, data, and models
 - **Control Flow and Logic Structures:**
   - Conditional branching (`if/else`) and loops for iterative gameplay
-- **Input/Output Handling:**
+- **Input/Output Handling & Validation:**
   - Command line interaction for dynamic user input and response feedback
+  - Input validation ensures that only valid responses (`True` or `False`) are accepted before answer evaluation
 - **Score Tracking Mechanism:**
   - Real time updates and post game results
 - **Data Representation:**
@@ -46,7 +47,9 @@ This codebase showcases how foundational concepts like data modeling, logic flow
 
 2. **Game Loop:**
    - The `QuizBrain` class manages the main loop and presents one question at a time using `next_question()`.
-   - The user responds with `True` or `False`, and the answer is evaluated using `check_answer()`.
+   - Questions are automatically shuffled before the quiz begins, ensuring a different question order in every playthrough.
+   - The user responds with `True` or `False`, and input validation ensures only valid responses are accepted before evaluation.
+   - Answers are processed and evaluated using the `check_answer()` method.
 
 3. **Scoring:**
    - The score is incremented for each correct response.
@@ -97,34 +100,34 @@ oop-trivia-quiz-game/
 
 ```
 Q.1: A slug's blood is green. (True/False): true
-You got it right!
+It's Correct. You got it right!
 The correct answer was: True.
 Your current score is: 1/1
 
 Q.2: The loudest animal is the African Elephant. (True/False): true
-That's wrong.
+That's wrong. It's Incorrect!
 The correct answer was: False.
 Your current score is: 1/2
 
 Q.3: Approximately one quarter of human bones are in the feet. (True/False): true
-You got it right!
+It's Correct. You got it right!
 The correct answer was: True.
 Your current score is: 2/3
 
 Q.4: The total surface area of a human lungs is the size of a football pitch. (True/False): true
-You got it right!
+It's Correct. You got it right!
 The correct answer was: True.
 Your current score is: 3/4
 
 ...
 
 Q.12: A few ounces of chocolate can kill a small dog. (True/False): true
-You got it right!
+It's Correct. You got it right!
 The correct answer was: True.
 Your current score is: 9/12
 
-You've completed the quiz.
-Your final score was: 9/12
+You've completed the quiz!
+Final Score: was: 9/12
 ```
 
 ---
@@ -148,6 +151,12 @@ Your final score was: 9/12
 
 - 💻 **CLI Based Interaction**  
   Fully terminal driven interface offers a responsive user experience with immediate scoring and feedback.
+
+- 🎲 **Randomized Question Order**  
+  Questions are shuffled at the start of every session, ensuring each playthrough feels fresh, unpredictable, and highly replayable.
+
+- 🛡️ **Robust Input Validation**  
+  Accepts only valid `True` or `False` responses, preventing accidental input errors and creating a smoother gameplay experience.
 
 ---
 
